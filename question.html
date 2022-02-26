@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        //start timer
+        var countDown;
+        var timerInterval;
+        var arrayOfQuestions = [];
+        const maxTime = 5 * 60; //time is in seconds
+        function setCountDownTimer() {
+            countDown = maxTime;
+        }
+        
+        let timerInterval = setInterval(updateTimer, 1000);
+        function updateTimer() {
+            countDownTimer = countDownTimer -1;
+        }
+        //question is asked
+        function SetUpQuestions() {
+            let question1 = {
+                id
+            }
+
+        }
+        //if question is correct show points the go to nest question
+        //if incorrect is incorrect time penalty
+    </script>
+</head>
+<body>
+    <div class="question-container">
+        <span>time remaining</span>
+        <span>score</span>
+    </div>
+
+
+    <div>
+        <div id="question">
+
+        </div>
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+    </div>
+    
+</body>
+</html>

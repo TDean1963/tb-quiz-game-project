@@ -1,0 +1,20 @@
+.welcome {
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    padding: 10px
+}
+#btnBegin {
+    padding: 20px,30px;
+}
